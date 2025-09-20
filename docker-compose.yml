@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    container_name: cricsan_web
+    ports:
+      - "5000:5000"
